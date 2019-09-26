@@ -1,0 +1,9 @@
+[Match]
+Name = eth0
+
+[Network]
+Description = Interface eth0 autoconfigured by PVE
+Address = 193.191.177.129/25
+Gateway = 193.191.177.254
+DHCP = none
+IPv6AcceptRA = false

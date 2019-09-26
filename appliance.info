@@ -1,0 +1,11 @@
+Name: ubuntu-18.04-standard
+Version: 18.04.1-1
+Type: lxc
+OS: ubuntu-18.04
+Section: system
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Architecture: amd64
+Installed-Size: 632
+Infopage: http://pve.proxmox.com/wiki/Ubuntu_Bionic_Standard
+Description: Ubuntu Bionic (standard)
+ A small Ubuntu Bionic system including all standard packages.
