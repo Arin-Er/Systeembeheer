@@ -49,3 +49,4 @@ postfix:!::
 postdrop:!::
 ssh:!::
 mlocate:!::
+uuidd:!::

@@ -49,3 +49,4 @@ postfix:x:109:
 postdrop:x:110:
 ssh:x:111:
 mlocate:x:112:
+uuidd:x:113:
