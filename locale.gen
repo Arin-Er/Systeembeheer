@@ -158,9 +158,9 @@
 # en_SC.UTF-8 UTF-8
 # en_SG ISO-8859-1
 # en_SG.UTF-8 UTF-8
-# en_US ISO-8859-1
+en_US ISO-8859-1
 # en_US.ISO-8859-15 ISO-8859-15
-# en_US.UTF-8 UTF-8
+en_US.UTF-8 UTF-8
 # en_ZA ISO-8859-1
 # en_ZA.UTF-8 UTF-8
 # en_ZM UTF-8
@@ -356,7 +356,7 @@
 # niu_NZ UTF-8
 # nl_AW UTF-8
 # nl_BE ISO-8859-1
-# nl_BE.UTF-8 UTF-8
+nl_BE.UTF-8 UTF-8
 # nl_BE@euro ISO-8859-15
 # nl_NL ISO-8859-1
 # nl_NL.UTF-8 UTF-8
