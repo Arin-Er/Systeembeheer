@@ -4,3 +4,9 @@
 # Address blocks in CIDR notation
 127.0.0.0/8
 ::1/128
+# eigen laptop
+10.23.13.71
+fe80::5933:aaae:55e2:bab9%24
+# mrt.uclllabs.be (uclllabs)
+193.191.177.6
+2001:6a8:2880:a021::6
