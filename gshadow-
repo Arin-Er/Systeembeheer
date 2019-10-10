@@ -50,3 +50,4 @@ postdrop:!::
 ssh:!::
 mlocate:!::
 uuidd:!::
+check:!::
