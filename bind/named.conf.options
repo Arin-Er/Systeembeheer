@@ -20,7 +20,7 @@ options {
 	//========================================================================
 	dnssec-validation auto;
 	allow-query	{ any; };
-	listen-on { 193.191.177.129 }
+	listen-on { 193.191.177.129; };
 	allow-transfer	{ 193.191.176.254; 193.191.177.4; };
 	recursion no;
 	auth-nxdomain no;    # conform to RFC1035
