@@ -6,3 +6,8 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "arin-er.sb.uclllabs.be" {
+        type master;
+        file "/etc/bind/zones/db.arin-er.sb.uclllabs.be";
+        allow-transfer { 193.191.177.254; };
+};
