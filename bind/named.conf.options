@@ -19,7 +19,10 @@ options {
 	// you will need to update your keys.  See https://www.isc.org/bind-keys
 	//========================================================================
 	dnssec-validation auto;
-
+	allow-query	{ any; };
+	listen-on { 193.191.177.129 }
+	allow-transfer	{ 193.191.176.254; 193.191.177.4; };
+	recursion no;
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 };
