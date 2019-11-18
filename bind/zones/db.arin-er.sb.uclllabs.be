@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.arin-er.sb.uclllabs.be. admin.arin-er.uclllabs.be. (
-			      4		; Serial
+			      6		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -23,4 +23,6 @@ ns2.uclllabs.be.		IN	A	193.191.177.4
 
 ;hosts - A records
 arin-er.sb.uclllabs.be.		IN	A	193.191.177.129
-www1.arin-er.sb.uclllabs.be.   	IN      A       193.191.177.129
+www.arin-er.sb.uclllabs.be.    IN      A       193.191.177.129
+www1.arin-er.sb.uclllabs.be.   IN      A       193.191.177.129
+www2.arin-er.sb.uclllabs.be.   IN      A       193.191.177.129
