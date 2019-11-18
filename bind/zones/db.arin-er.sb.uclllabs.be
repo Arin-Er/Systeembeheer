@@ -23,3 +23,4 @@ ns2.uclllabs.be.		IN	A	193.191.177.4
 
 ;hosts - A records
 arin-er.sb.uclllabs.be.		IN	A	193.191.177.129
+www1.arin-er.sb.uclllabs.be.   	IN      A       193.191.177.129
