@@ -2,7 +2,7 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	ns.arin-er.sb.uclllabs.be. owner.arin-er.uclllabs.be. (
+@	IN	SOA	ns.arin-er.sb.uclllabs.be. admin.arin-er.uclllabs.be. (
 			      3		; Serial
 			 604800		; Refresh
 			  86400		; Retry
