@@ -34,4 +34,4 @@ secure.arin-er.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
 secure.arin-er.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:arin.er@student.ucll.be"
 
 secure.arin-er.sb.uclllabs.be.  IN      CAA     0 issue "letsencrypt.org"                              
-secure.arin-er.sb.uclllabs.be  IN      CAA     0 iodef "mailto:arin.er@student.ucll.be"	
+secure.arin-er.sb.uclllabs.be.  IN      CAA     0 iodef "mailto:arin.er@student.ucll.be"	
