@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.arin-er.sb.uclllabs.be. admin.arin-er.uclllabs.be. (
-			      9		; Serial
+			     11		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
