@@ -22,16 +22,17 @@ ns1.uclllabs.be.		IN	A	193.191.176.254
 ns2.uclllabs.be.		IN	A	193.191.177.4
 
 ;hosts - A records
-*.arin-er.sb.uclllabs.be.	IN	A	193.191.177.129
-arin-er.sb.uclllabs.be.		IN	A	193.191.177.129
-www.arin-er.sb.uclllabs.be.    	IN      A       193.191.177.129
-www1.arin-er.sb.uclllabs.be.   	IN      A       193.191.177.129
-www2.arin-er.sb.uclllabs.be.   	IN      A       193.191.177.129
-test.arin-er.sb.uclllabs.be.	IN	A	193.191.177.254
-secure.arin-er.sb.uclllabs.be.	IN	A	193.191.177.129
+*.arin-er.sb.uclllabs.be.		IN	A	193.191.177.129
+arin-er.sb.uclllabs.be.			IN	A	193.191.177.129
+www.arin-er.sb.uclllabs.be.    		IN      A       193.191.177.129
+www1.arin-er.sb.uclllabs.be.   		IN      A       193.191.177.129
+www2.arin-er.sb.uclllabs.be.   		IN      A       193.191.177.129
+test.arin-er.sb.uclllabs.be.		IN	A	193.191.177.254
+secure.arin-er.sb.uclllabs.be.		IN	A	193.191.177.129
+supersecure.arin-er.sb.uclllabs.be.	IN 	A	193.191.177.129
 
 secure.arin-er.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
 secure.arin-er.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:arin.er@student.ucll.be"
 
-secure.arin-er.sb.uclllabs.be.  IN      CAA     0 issue "letsencrypt.org"                              
-secure.arin-er.sb.uclllabs.be.  IN      CAA     0 iodef "mailto:arin.er@student.ucll.be"	
+supersecure.arin-er.sb.uclllabs.be.  IN      CAA     0 issue "letsencrypt.org"                              
+supersecure.arin-er.sb.uclllabs.be.  IN      CAA     0 iodef "mailto:arin.er@student.ucll.be"	
