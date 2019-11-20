@@ -1,0 +1,33 @@
+#!/bin/bash
+#check if command is ran as root
+if [ "$EUID" -ne 0 ]; then
+        echo "Please run as root"
+        exit
+fi
+#check if domain exists
+if [ -z "$(dig +short $1)" ]; then
+        echo "this domain does not exist"
+        exit 1
+fi
+
+#check if vhost exists
+if [ -e "/etc/apache2/sites-available/$1.conf" ]; then
+        echo "this vhost already exists"
+        exit 1
+fi
+
+mkdir "/var/www/$1"
+mkdir "/var/www/$1/html"
+
+echo    "<VirtualHost *:80>
+                ServerName $1
+                DocumentRoot "/var/www/html/$1"
+                ErrorLog "/var/log/apache2/$1.log"
+                CustomLog "/var/log/apache2/$1.log" combined
+        </VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
+
+subdomain=$(echo $1 | grep -oP ".*(?=(\.midas-vanhoey)")
+echo "welcome $subdomain" > "/var/www/$1/html/index.html"
+
+a2ensite $1 > /dev/null
+systemctl reload apache2
