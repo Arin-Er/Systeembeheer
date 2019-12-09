@@ -27,4 +27,5 @@ uuidd:x:107:113::/run/uuidd:/usr/sbin/nologin
 check:x:1000:1000:check,check,check,check,check:/home/check:/bin/bash
 ntp:x:108:116::/nonexistent:/usr/sbin/nologin
 bind:x:109:117::/var/cache/bind:/usr/sbin/nologin
-mysql:x:110:118::/nonexistent:/bin/false
+mysql:x:110:118:MySQL Server,,,:/nonexistent:/bin/false
+ftp:x:111:119::/srv/ftp:/usr/sbin/nologin
