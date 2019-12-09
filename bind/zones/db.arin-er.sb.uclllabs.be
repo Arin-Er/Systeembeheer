@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.arin-er.sb.uclllabs.be. admin.arin-er.uclllabs.be. (
-			     13		; Serial
+			     14		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -36,3 +36,6 @@ secure.arin-er.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:arin.er@student.ucll.be"
 
 supersecure.arin-er.sb.uclllabs.be.  IN      CAA     0 issue "letsencrypt.org"                              
 supersecure.arin-er.sb.uclllabs.be.  IN      CAA     0 iodef "mailto:arin.er@student.ucll.be"	
+
+arin-er.sb.uclllabs.be.				IN	AAAA	2001:6a8:2880:a077::81
+ns.arin-er.sb.uclllabs.be.			IN	AAAA	2001:6a8:2880:a077::81
