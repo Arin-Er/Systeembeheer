@@ -56,3 +56,4 @@ netdev:!::
 ntp:!::
 bind:!::
 mysql:!::
+ftp:!::
