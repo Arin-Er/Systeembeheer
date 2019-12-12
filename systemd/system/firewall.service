@@ -1,0 +1,15 @@
+[Unit]
+Description=firewall.service
+Restart=Always
+
+
+[Service]
+
+ExecStart=/etc/init.d/firewall start
+ExecRestart=/etc/init.d/firewall restart
+ExecStop=/etc/init.d/firewall stop
+
+Type=simple
+Type=oneshot
+Type=forking
+RemainAfterExit = yes
